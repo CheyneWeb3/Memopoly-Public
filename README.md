@@ -9,7 +9,7 @@
 [![Status](https://img.shields.io/badge/Status-Public%20Beta-f2c94c?style=for-the-badge)](#beta-status)
 
 <a href="https://memopoly.hausserver.xyz">
-  <img src="PASTE_GAME_IMAGE_URL_HERE" alt="Memopoly multiplayer browser game board" width="1100">
+  <img src="https://raw.githubusercontent.com/CheyneWeb3/Memopoly-Public/refs/heads/main/boardlayout.png" alt="Memopoly multiplayer browser game board" width="1100">
 </a>
 
 **[Play the live beta](https://memopoly.hausserver.xyz)**
