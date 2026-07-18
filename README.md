@@ -2,7 +2,7 @@
 
 # MEMOPOLY
 
-**A live multiplayer crypto property strategy game for the browser.**
+**A live multiplayer crypto property strategy game.**
 
 [![Live Beta](https://img.shields.io/badge/Live%20Beta-memopoly.hausserver.xyz-19d3c5?style=for-the-badge)](https://memopoly.hausserver.xyz)
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ed?style=for-the-badge&logo=docker&logoColor=white)](#run-with-docker)
