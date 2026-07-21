@@ -336,41 +336,7 @@ Real-value deployments require an independent security review, operational monit
 
 ---
 
-## Run with Docker
 
-Create the deployment environment files required by the project, then start the stack from the repository root:
-
-```bash
-docker compose up -d --build
-```
-
-Check service state and recent logs:
-
-```bash
-docker compose ps
-docker compose logs --tail=200 app game-worker
-```
-
-The exact service names and required environment variables may differ between development, testnet and production deployments. Keep token contracts, chain IDs, RPC URLs, treasury keys, OAuth credentials and signed-admin configuration in deployment secrets rather than committed files.
-
----
-
-## Repository images
-
-This README expects the following files:
-
-```text
-docs/images/
-├── account-linked-identities.png
-├── banker-deposit.png
-├── banker-withdraw.png
-├── create-staked-game.png
-├── player-account-menu.png
-├── sign-in-screen.png
-└── welcome-screen.png
-```
-
----
 
 ## Disclaimer
 
