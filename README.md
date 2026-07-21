@@ -34,7 +34,7 @@ The same player account can be used for both:
 The game keeps the familiar flow of a classic property board game while using an original browser interface, crypto-themed board, custom cards, multiplayer systems, persistent accounts and server-controlled rules.
 
 <div align="center">
-  <img src="docs/images/welcome-screen.png" alt="Memopoly welcome screen" width="760">
+  <img src="docs/images/welcome-screen.png" alt="Memopoly welcome screen" width="560">
 </div>
 
 ---
@@ -119,19 +119,19 @@ Players can return through either a signed wallet or Google after linking both m
 A wallet login signs a server-issued authentication message only. Signing in does **not** send a transaction and does not spend gas. Token transfers and withdrawals require separate, clearly presented actions.
 
 <div align="center">
-  <img src="docs/images/sign-in-screen.png" alt="Memopoly wallet and Google sign-in screen" width="760">
+  <img src="docs/images/sign-in-screen.png" alt="Memopoly wallet and Google sign-in screen" width="560">
 </div>
 
 The account page lets a player update their table name and icon, review linked wallets, link another wallet, confirm their Google identity and open protected admin tools when authorized.
 
 <div align="center">
-  <img src="docs/images/account-linked-identities.png" alt="Memopoly account page with linked wallet and Google identity" width="900">
+  <img src="docs/images/account-linked-identities.png" alt="Memopoly account page with linked wallet and Google identity" width="620">
 </div>
 
 The player menu provides direct access to the Banker, account settings, Hall of Fame, server status, protected Admin Desk and logout.
 
 <div align="center">
-  <img src="docs/images/player-account-menu.png" alt="Memopoly player account menu" width="430">
+  <img src="docs/images/player-account-menu.png" alt="Memopoly player account menu" width="320">
 </div>
 
 ---
@@ -149,7 +149,7 @@ entry per player × funded player seats = table prize pool
 For example, six funded seats at `10 tUSDC` create a projected `60 tUSDC` prize pool.
 
 <div align="center">
-  <img src="docs/images/create-staked-game.png" alt="Create a public staked Memopoly game with token entry and projected prize pool" width="760">
+  <img src="docs/images/create-staked-game.png" alt="Create a public staked Memopoly game with token entry and projected prize pool" width="560">
 </div>
 
 ### Staked table lifecycle
@@ -177,7 +177,7 @@ Every player receives a unique custodial deposit address. The Banker can initiat
 The deposit watcher must match the configured chain, token contract, destination address and exact transfer event before crediting the account.
 
 <div align="center">
-  <img src="docs/images/banker-deposit.png" alt="Memopoly Banker deposit screen with custodial address and linked-wallet transfer" width="1000">
+  <img src="docs/images/banker-deposit.png" alt="Memopoly Banker deposit screen with custodial address and linked-wallet transfer" width="700">
 </div>
 
 ### Balance states
@@ -195,7 +195,7 @@ This separation prevents the same token balance from being withdrawn and committ
 Withdrawals can return only to the linked primary wallet. The player signs the exact destination and amount before the request is accepted. The amount moves to Reserved immediately and returns to Available only when the on-chain transfer fails or is safely cancelled by the settlement process.
 
 <div align="center">
-  <img src="docs/images/banker-withdraw.png" alt="Memopoly Banker withdrawal screen with linked primary wallet destination" width="1000">
+  <img src="docs/images/banker-withdraw.png" alt="Memopoly Banker withdrawal screen with linked primary wallet destination" width="700">
 </div>
 
 ---
