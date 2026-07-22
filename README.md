@@ -14,7 +14,9 @@
   <img src="https://raw.githubusercontent.com/CheyneWeb3/Memopoly-Public/refs/heads/main/desktop.png" alt="Memopoly multiplayer browser game board" width="1100">
 </a>
 
-**[Play the live beta](https://memopoly.hausserver.xyz)**
+**[Play the EVM live beta](https://memopoly.hausserver.xyz)**
+
+**[Play the Solana live beta](https://memopoly.hausserver.xyz)**
 
 Free Play uses game-only currency. Staked Play uses the configured USDC-compatible token and a funded winner-takes-pool table.
 
