@@ -16,7 +16,7 @@
 
 **[Play the EVM live beta](https://memopoly.hausserver.xyz)**
 
-**[Play the Solana live beta](https://memopoly.hausserver.xyz)**
+**[Play the Solana live beta](https://memopoly-svm.hausserver.xyz)**
 
 Free Play uses game-only currency. Staked Play uses the configured USDC-compatible token and a funded winner-takes-pool table.
 
